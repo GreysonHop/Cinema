@@ -1,0 +1,70 @@
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-image:url(../imgs/login_bg.jpg);
+	}
+
+h3{
+	font-size:18px;
+	color:#ff1222;
+}
+
+.login{
+		width:640px;
+		height:400px;
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-320px;
+		margin-top:-200px;
+	}
+
+.logo{
+	background-image:url(../imgs/logo.png);
+	background-repeat:no-repeat;
+	background-position:30px center;
+	height:150px;'
+}
+
+.login_form{
+	height:80px;
+	width:600px;
+	margin-left:auto;
+	margin-top:auto;
+}
+
+.login_form .user{
+	background-image:url(../imgs/login_name_bg.jpg);
+	width:540px;
+	height:80px;
+	float:left;'
+}
+
+.login_form .btn{
+	background-image:url(../imgs/login_button.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:50px;
+	height:54px;
+	text-indent: -9999px;
+	float:left;
+	display:block;
+	margin-top:10px;
+	position:relative;
+}
+
+.login_form .txt_value{
+	float:left;
+	margin-left:20px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:15px;
+	width:240px;
+	height:50px;
+	line-height:50px;
+	color:#666;
+	font-weight:bold;
+	background-color:#f5f6f7;
+	border:none;
+}
